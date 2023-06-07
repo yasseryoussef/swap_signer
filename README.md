@@ -12,7 +12,7 @@ third paramter is token pin
 paramters are send as query string
 this api will sigen the invoice and retrun a full signed document 
 
-the secoubd api is for recipte
+the Second  api is for recipte
 api uir is http://localhost:5111/api/SigenRecipt
 
 this link for published file to implement in your application
