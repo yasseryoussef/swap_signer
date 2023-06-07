@@ -1,0 +1,88 @@
+{
+  "issuer": {
+    "address": {
+      "branchID": "0",
+      "country": "EG",
+      "governate": "CAIRO",
+      "regionCity": "CAIRO",
+      "street": " ع 4 م عباد الرحمن خلف نادي الصيد المقطم القاهره",
+      "buildingNumber": "123",
+      "postalCode": "12345",
+      "floor": "1",
+      "room": "1",
+      "landmark": "1",
+      "additionalInformation": "1"
+    },
+    "type": "B",
+    "id": "616063652",
+    "name": "سواب سوليوشنز للتطبيقات الذكيه"
+  },
+  "receiver": {
+    "address": {
+      "country": "EG",
+      "governate": "CAIRO",
+      "regionCity": "CAIRO",
+      "street": "1",
+      "buildingNumber": "123",
+      "postalCode": "12345",
+      "floor": "1",
+      "room": "1",
+      "landmark": "1",
+      "additionalInformation": "1"
+    },
+    "type": "P",
+    "id": "29204211800414",
+    "name": "على جمال عبده ابراهيم"
+  },
+  "documentType": "I",
+  "documentTypeVersion": "1.0",
+  "dateTimeIssued": "2023-06-07T00:00:00Z",
+  "taxpayerActivityCode": "6920",
+  "internalID": "i-8536/20121418/2/2023/6/6",
+  "invoiceLines": [
+    {
+      "description": "Venous Doppler for one L L",
+      "itemType": "GS1",
+      "itemCode": "10007601",
+      "unitType": "EA",
+      "quantity": 1,
+      "internalCode": "2602",
+      "salesTotal": 128,
+      "total": 128,
+      "valueDifference": 0,
+      "totalTaxableFees": 0,
+      "netTotal": 128,
+      "itemsDiscount": 0,
+      "unitValue": {
+        "currencySold": "EGP",
+        "amountEGP": 128
+      },
+      "discount": {
+        "rate": 0,
+        "amount": 0
+      },
+      "taxableItems": [
+        {
+          "taxType": "T1",
+          "amount": 0,
+          "subType": "V009",
+          "rate": 0
+        }
+      ]
+    }
+  ],
+  "totalDiscountAmount": 0,
+  "totalSalesAmount": 128,
+  "netAmount": 128,
+  "taxTotals": [
+    {
+      "taxType": "T1",
+      "amount": 0
+    }
+  ],
+  "totalAmount": 128,
+  "extraDiscountAmount": 0,
+  "totalItemsDiscountAmount": 0
+
+}
+ 
