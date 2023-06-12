@@ -1,0 +1,27 @@
+<?php
+
+$url = 'http://localhost:5111/api/signdoc';
+$use_serial = '1';
+$na = 'token_name';
+$pin = 'token_pin';
+
+$url .= "?UseSerial={$use_serial}&TokenName={$na}&TokenPin={$pin}";
+
+$jsonData = array(
+
+//Json data
+
+);
+
+
+$jsonDataEncoded = json_encode($jsonData);
+$ch = curl_init($url);
+
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonDataEncoded);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+
+$result = curl_exec($ch);
+
+curl_close($ch);
+?>
