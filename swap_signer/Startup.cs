@@ -6,7 +6,12 @@ namespace swap_signer
     {
         public void ConfigureServices(IServiceCollection services)
         {
+
+            // Register CORS services and define a wide-open policy
+            services.AddCors();
+
             services.AddControllers();
+         
 
             //services.AddAuthentication(
             //    CertificateAuthenticationDefaults.AuthenticationScheme)
